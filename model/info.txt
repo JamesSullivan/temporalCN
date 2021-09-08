@@ -1,0 +1,9 @@
+A TCN consisting of dilated, causal 1D convolutional layers with the same input and output lengths. 
+
+tf_tcn.py and tf_gan.py
+Simplified and Modified (to match paper) Tensor Flow of a temporal convolutional network from
+https://github.com/ICascha/QuantGANs-replication
+
+torch_tcn.py
+Modified (to match paper) Torch version of a temporal convolutional networkk
+Official TCN PyTorch implementation: https://github.com/locuslab/TCN

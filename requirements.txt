@@ -1,0 +1,7 @@
+!pip install pandas
+!pip install numpy
+!pip install matplotlib
+!pip install tensorflow-addons # TF Model
+!pip install torch # for Torch Model
+!git clone https://github.com/JamesSullivan/temporalCN.git
+

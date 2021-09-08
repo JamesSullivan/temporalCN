@@ -1,0 +1,2 @@
+See The Lambert Way to Gaussianize heavy tailed data with the inverse of Tukey’s h transformation as a special case
+https://www.researchgate.net/publication/253822761_The_Lambert_Way_to_Gaussianize_Heavy-Tailed_Data_with_the_Inverse_of_Tukey's_h_Transformation_as_a_Special_Case/link/0363ef580cf2fc730945c6d7/download

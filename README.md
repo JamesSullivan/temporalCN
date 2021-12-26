@@ -11,7 +11,7 @@ This repository includes code from:
 * [TCN](https://github.com/locuslab/TCN)
 * Greg Ver Steeg, 2015
 
-### Data for both S&P 500 and the Shanghai SE Composite Index in the data folder
+### Data for S&P 500 and the Shanghai SE Composite Index needs to be put in the data folder
 
 ### TCN implementations are provided for both Tensor Flow and Torch
 

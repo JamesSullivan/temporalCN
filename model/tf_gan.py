@@ -71,9 +71,9 @@ class GAN:
             if (n_batch + 1) % 500 == 0:
               y = self.generator(self.fixed_noise).numpy().squeeze()
               scores = []
-              scores.append(np.linalg.norm(self.acf_real - acf(y.T, 250).mean(axis=1, keepdims=True)))
-              scores.append(np.linalg.norm(self.abs_acf_real - acf(y.T**2, 250).mean(axis=1, keepdims=True)))
-              scores.append(np.linalg.norm(self.le_real - acf(y.T, 250, le=True).mean(axis=1, keepdims=True)))
+              scores.append(np.linalg.norm(self.acf_real - acf(y.T, 250).mean(axis=1, keepdims=True)[:-1]))
+              scores.append(np.linalg.norm(self.abs_acf_real - acf(y.T**2, 250).mean(axis=1, keepdims=True)[:-1]))
+              scores.append(np.linalg.norm(self.le_real - acf(y.T, 250, le=True).mean(axis=1, keepdims=True)[:-1]))
               print("\nacf: {:.4f}, acf_abs: {:.4f}, le: {:.4f}".format(*scores))
 
             progress.update(n_batch + 1)
